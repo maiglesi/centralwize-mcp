@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "CentralWize",
+  "name_for_model": "centralwize",
+  "description_for_human": "Market intelligence for AI agents. Find competitors, market gaps, and get BUILD/PIVOT/AVOID verdicts for $5.",
+  "description_for_model": "CentralWize provides competitive analysis and market gap identification for AI product ideas. Send a product description and get back competitors with funding data, workflow-level market gaps, and a strategic verdict. Backed by 11,000+ AI tools mapped to 54,000+ workflow mappings across 54 industries. Use this when an agent needs to validate a product idea, find competitors, or identify underserved markets.",
+  "auth": {
+    "type": "service_http",
+    "authorization_type": "bearer"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.centralwize.com/openapi.json"
+  },
+  "logo_url": "https://centralwize.com/logo.png",
+  "contact_email": "hello@centralwize.com",
+  "legal_info_url": "https://centralwize.com/terms.html"
+}

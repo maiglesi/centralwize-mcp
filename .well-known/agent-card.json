@@ -1,0 +1,41 @@
+{
+  "name": "CentralWize",
+  "description": "Market intelligence for AI agents. Competitive analysis, workflow-level gap identification, and BUILD/PIVOT/AVOID verdicts backed by 11,000+ AI tools mapped to 54,000+ workflows. $5 per analysis.",
+  "url": "https://centralwize.com",
+  "api": {
+    "type": "rest",
+    "base_url": "https://api.centralwize.com",
+    "docs_url": "https://api.centralwize.com/docs",
+    "openapi_url": "https://api.centralwize.com/openapi.json"
+  },
+  "mcp": {
+    "url": "https://mcp.centralwize.com/sse",
+    "tools": ["centralwize_analyze"]
+  },
+  "capabilities": [
+    "competitive-analysis",
+    "market-gap-identification",
+    "workflow-mapping",
+    "funding-intelligence",
+    "build-pivot-avoid-verdicts"
+  ],
+  "authentication": {
+    "type": "bearer",
+    "key_prefix": "cw_",
+    "signup_url": "https://api.centralwize.com/v1/keys"
+  },
+  "pricing": {
+    "model": "per-query",
+    "cost_per_query_usd": 5.00,
+    "free_previews": 2,
+    "currency": "USD"
+  },
+  "contact": {
+    "email": "hello@centralwize.com",
+    "website": "https://centralwize.com"
+  },
+  "provider": {
+    "name": "Entropsy",
+    "url": "https://entropsy.io"
+  }
+}

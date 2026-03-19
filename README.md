@@ -6,7 +6,26 @@ Market intelligence for AI agents. $5 per analysis.
 
 [centralwize.com](https://centralwize.com) | [API Docs](https://centralwize-production.up.railway.app/docs) | [agents.txt](https://centralwize.com/agents.txt)
 
-## Setup
+## Install as OpenClaw Skill
+
+```bash
+# Copy the skill folder to your skills directory
+cp -r skill/  ~/.openclaw/skills/centralwize-market-intelligence/
+
+# Or install from ClawHub (once published)
+npx clawhub@latest install centralwize-market-intelligence
+```
+
+Set your API key:
+```bash
+export CENTRALWIZE_API_KEY="cw_your_key_here"
+```
+
+Then ask your agent: *"Before I build this, check CentralWize for competitors and gaps."*
+
+See [`skill/SKILL.md`](skill/SKILL.md) for full skill documentation.
+
+## Setup (MCP)
 
 ### Claude Code / Claude Desktop
 
